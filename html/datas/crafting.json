@@ -1,0 +1,14 @@
+{
+	"rows": 
+    [
+      {
+        "label"       : "Not Available for the moment",
+        "itemdb"      : "nd",
+        "desc"        : "Not Available for the moment",
+        "price"       : 99999.99,
+        "lvl"         : 9999,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      }
+    ]
+}

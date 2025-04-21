@@ -1,0 +1,32 @@
+{
+	"rows": 
+    [
+      {
+        "label"       : "Coffee",
+        "itemdb"      : "coffee",
+        "desc"        : "Hot and fresh made daily",
+        "price"       : 2.0,
+        "lvl"         : 3,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Rhum",
+        "itemdb"      : "rhum",
+        "desc"        : "You like alcool ? you are a good place for drink !",
+        "price"       : 15.35,
+        "lvl"         : 3,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Beer",
+        "itemdb"      : "beer",
+        "desc"        : "Bottled in New Austin",
+        "price"       : 3.22,
+        "lvl"         : 2,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      }
+    ]
+}

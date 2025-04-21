@@ -1,0 +1,32 @@
+{
+	"rows": 
+    [
+      {
+        "label"       : "Bread",
+        "itemdb"      : "bread",
+        "desc"        : "A Simple bread, it's good for your eat metabolism",
+        "price"       : 2.5,
+        "lvl"         : 1,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Water",
+        "itemdb"      : "water",
+        "desc"        : "Do no drink this, its dangerous for you life",
+        "price"       : 1.0,
+        "lvl"         : 1,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Chocolat",
+        "itemdb"      : "chocolat",
+        "desc"        : "Imported from Ambarino",
+        "price"       : 1.28,
+        "lvl"         : 1,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      }
+    ]
+}

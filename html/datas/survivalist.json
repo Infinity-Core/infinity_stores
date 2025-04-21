@@ -1,0 +1,14 @@
+{
+	"rows": 
+    [
+      {
+        "label"       : "Hatchet",
+        "itemdb"      : "hatchet",
+        "desc"        : "A big hatchet for cut the wood",
+        "price"       : 125.00,
+        "lvl"         : 1,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      }
+    ]
+}

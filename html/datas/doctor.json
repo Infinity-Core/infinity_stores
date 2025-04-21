@@ -1,0 +1,14 @@
+{
+	"rows": 
+    [
+      {
+        "label"       : "Morphine Syringe",
+        "itemdb"      : "seringue",
+        "desc"        : "Restore your life +25HP X3 Units",
+        "price"       : 65.80,
+        "lvl"         : 1,
+        "xpreq"       : 0,
+        "quantity"    : 3
+      }
+    ]
+}

@@ -1,0 +1,420 @@
+{
+	"rows": 
+    [
+      {
+        "label"       : "Bow",
+        "itemdb"      : "WEAPON_BOW",
+        "desc"        : "A nice Bow",
+        "price"       : 150.0,
+        "lvl"         : 3,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Knife",
+        "itemdb"      : "WEAPON_MELEE_KNIFE",
+        "desc"        : "Classic knife",
+        "price"       : 50.85,
+        "lvl"         : 2,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Pistol Mauser",
+        "itemdb"      : "WEAPON_PISTOL_MAUSER",
+        "desc"        : "Deutch pistol automatic",
+        "price"       : 950.00,
+        "lvl"         : 10,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Revolver Cattleman",
+        "itemdb"      : "WEAPON_REVOLVER_CATTLEMAN",
+        "desc"        : "American revolver classic",
+        "price"       : 235.00,
+        "lvl"         : 5,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Carbine Repeater",
+        "itemdb"      : "WEAPON_REPEATER_CARBINE",
+        "desc"        : "American carbine repeater",
+        "price"       : 1950.00,
+        "lvl"         : 15,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Rifle Bolt Action",
+        "itemdb"      : "WEAPON_RIFLE_BOLTACTION",
+        "desc"        : "American rifle action",
+        "price"       : 1650.00,
+        "lvl"         : 10,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Shotgun Pump",
+        "itemdb"      : "WEAPON_SHOTGUN_PUMP",
+        "desc"        : "Ready for nightmare",
+        "price"       : 3000.00,
+        "lvl"         : 20,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Bow Improved",
+        "itemdb"      : "WEAPON_BOW_IMPROVED",
+        "desc"        : "Ready for hunt",
+        "price"       : 250.00,
+        "lvl"         : 5,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "X3 Bolas Hawkmoth",
+        "itemdb"      : "WEAPON_THROWN_BOLAS_HAWKMOTH",
+        "desc"        : "",
+        "price"       : 15.00,
+        "lvl"         : 5,
+        "xpreq"       : 0,
+        "quantity"    : 3
+      },
+      {
+        "label"       : "X3 Bolas Ironspiked",
+        "itemdb"      : "WEAPON_THROWN_BOLAS_IRONSPIKED",
+        "desc"        : "",
+        "price"       : 18.00,
+        "lvl"         : 5,
+        "xpreq"       : 0,
+        "quantity"    : 3
+      },
+      {
+        "label"       : "X3 Bolas classic",
+        "itemdb"      : "WEAPON_THROWN_BOLAS",
+        "desc"        : "",
+        "price"       : 15.00,
+        "lvl"         : 5,
+        "xpreq"       : 0,
+        "quantity"    : 3
+      },
+
+      {
+        "label"       : "X3 Bolas Intertwined",
+        "itemdb"      : "WEAPON_THROWN_BOLAS_INTERTWINED",
+        "desc"        : "",
+        "price"       : 22.00,
+        "lvl"         : 5,
+        "xpreq"       : 0,
+        "quantity"    : 3
+      },
+      {
+        "label"       : "Hammer",
+        "itemdb"      : "WEAPON_MELEE_HAMMER",
+        "desc"        : "",
+        "price"       : 25.00,
+        "lvl"         : 5,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Knife Rustic",
+        "itemdb"      : "WEAPON_MELEE_KNIFE_RUSTIC",
+        "desc"        : "",
+        "price"       : 65.00,
+        "lvl"         : 5,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "X5 Molotov",
+        "itemdb"      : "WEAPON_THROWN_MOLOTOV",
+        "desc"        : "",
+        "price"       : 75.00,
+        "lvl"         : 5,
+        "xpreq"       : 0,
+        "quantity"    : 5
+      },
+      {
+        "label"       : "X5 Dynamite",
+        "itemdb"      : "WEAPON_THROWN_DYNAMITE",
+        "desc"        : "",
+        "price"       : 600.00,
+        "lvl"         : 5,
+        "xpreq"       : 0,
+        "quantity"    : 5
+      },
+      {
+        "label"       : "X3 Thrown Tomohawk",
+        "itemdb"      : "WEAPON_THROWN_TOMAHAWK",
+        "desc"        : "",
+        "price"       : 100.00,
+        "lvl"         : 5,
+        "xpreq"       : 0,
+        "quantity"    : 3
+      },
+      {
+        "label"       : "Hatchet combat",
+        "itemdb"      : "WEAPON_MELEE_HATCHET",
+        "desc"        : "",
+        "price"       : 250.00,
+        "lvl"         : 5,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Torch",
+        "itemdb"      : "WEAPON_MELEE_TORCH",
+        "desc"        : "",
+        "price"       : 10.00,
+        "lvl"         : 5,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Pistol M1899",
+        "itemdb"      : "WEAPON_PISTOL_M1899",
+        "desc"        : "",
+        "price"       : 900.00,
+        "lvl"         : 15,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Pistol Semi Automatic",
+        "itemdb"      : "WEAPON_PISTOL_SEMIAUTO",
+        "desc"        : "",
+        "price"       : 1500.00,
+        "lvl"         : 20,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Pistol Volcanic",
+        "itemdb"      : "WEAPON_PISTOL_VOLCANIC",
+        "desc"        : "",
+        "price"       : 1350.00,
+        "lvl"         : 20,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Repeater Evans",
+        "itemdb"      : "WEAPON_REPEATER_EVANS",
+        "desc"        : "",
+        "price"       : 1600.00,
+        "lvl"         : 20,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Repeater Henry",
+        "itemdb"      : "WEAPON_REPEATER_HENRY",
+        "desc"        : "",
+        "price"       : 1600.00,
+        "lvl"         : 20,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Rifle Varmint",
+        "itemdb"      : "WEAPON_RIFLE_VARMINT",
+        "desc"        : "",
+        "price"       : 1600.00,
+        "lvl"         : 20,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Repeater Winchester",
+        "itemdb"      : "WEAPON_REPEATER_WINCHESTER",
+        "desc"        : "",
+        "price"       : 1650.00,
+        "lvl"         : 20,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Revolver double action",
+        "itemdb"      : "WEAPON_REVOLVER_DOUBLEACTION",
+        "desc"        : "",
+        "price"       : 1400.00,
+        "lvl"         : 15,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Revolver double action gambler",
+        "itemdb"      : "WEAPON_REVOLVER_DOUBLEACTION_GAMBLER",
+        "desc"        : "",
+        "price"       : 1400.00,
+        "lvl"         : 15,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Revolver Lemat",
+        "itemdb"      : "WEAPON_REVOLVER_LEMAT",
+        "desc"        : "",
+        "price"       : 1700.00,
+        "lvl"         : 15,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Revolver Schofield",
+        "itemdb"      : "WEAPON_REVOLVER_SCHOFIELD",
+        "desc"        : "",
+        "price"       : 1500.00,
+        "lvl"         : 15,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Revolver Navy",
+        "itemdb"      : "WEAPON_REVOLVER_NAVY",
+        "desc"        : "",
+        "price"       : 1300.00,
+        "lvl"         : 15,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Sniper Carcano",
+        "itemdb"      : "WEAPON_SNIPERRIFLE_CARCANO",
+        "desc"        : "",
+        "price"       : 2500.00,
+        "lvl"         : 20,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Sniper Rollingblock",
+        "itemdb"      : "WEAPON_SNIPERRIFLE_ROLLINGBLOCK",
+        "desc"        : "",
+        "price"       : 2500.00,
+        "lvl"         : 20,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Rifle Springfield",
+        "itemdb"      : "WEAPON_RIFLE_SPRINGFIELD",
+        "desc"        : "",
+        "price"       : 1500.00,
+        "lvl"         : 20,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Double barrel Shotgun",
+        "itemdb"      : "WEAPON_SHOTGUN_DOUBLEBARREL",
+        "desc"        : "",
+        "price"       : 1500.00,
+        "lvl"         : 15,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Double barrel Shotgun exotic",
+        "itemdb"      : "WEAPON_SHOTGUN_DOUBLEBARREL_EXOTIC",
+        "desc"        : "",
+        "price"       : 2000.00,
+        "lvl"         : 20,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Shotgun repeater",
+        "itemdb"      : "WEAPON_SHOTGUN_REPEATING",
+        "desc"        : "",
+        "price"       : 2500.00,
+        "lvl"         : 20,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Shotgun sawedoff",
+        "itemdb"      : "WEAPON_SHOTGUN_SAWEDOFF",
+        "desc"        : "",
+        "price"       : 2000.00,
+        "lvl"         : 15,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Shotgun Semi-Auto",
+        "itemdb"      : "WEAPON_SHOTGUN_SEMIAUTO",
+        "desc"        : "",
+        "price"       : 2500.00,
+        "lvl"         : 20,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Lasso",
+        "itemdb"      : "WEAPON_LASSO",
+        "desc"        : "The lasso cowboy",
+        "price"       : 100.00,
+        "lvl"         : 3,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Ammo Pistol",
+        "itemdb"      : "ammo_pistol",
+        "desc"        : "X1 Clip for pistol",
+        "price"       : 100.00,
+        "lvl"         : 10,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Ammo Repeater",
+        "itemdb"      : "ammo_repeater",
+        "desc"        : "X1 Clip for repeater",
+        "price"       : 125.35,
+        "lvl"         : 15,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Ammo Shotgun",
+        "itemdb"      : "ammo_shotgun",
+        "desc"        : "X1 Clip for shotgun",
+        "price"       : 165.00,
+        "lvl"         : 20,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Ammo Revolver",
+        "itemdb"      : "ammo_revolver",
+        "desc"        : "X1 Clip for revolver",
+        "price"       : 25.00,
+        "lvl"         : 5,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Arrows",
+        "itemdb"      : "ammo_arrow",
+        "desc"        : "Arrows",
+        "price"       : 15.00,
+        "lvl"         : 3,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Ammo Rifle",
+        "itemdb"      : "ammo_rifle",
+        "desc"        : "X1 Clip for rifle",
+        "price"       : 115.00,
+        "lvl"         : 10,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      }
+    ]
+}

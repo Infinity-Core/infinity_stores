@@ -1,0 +1,15 @@
+{
+	"rows": 
+    [
+      {
+        "label"       : "Satchel for berries",
+        "itemdb"      : "satchel",
+        "desc"        : "A perfect satchel for take berries",
+        "price"       : 50.00,
+        "lvl"         : 1,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      }
+    ]
+}
+

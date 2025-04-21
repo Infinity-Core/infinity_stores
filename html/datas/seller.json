@@ -1,0 +1,32 @@
+{
+	"rows": 
+    [
+      {
+        "label"       : "Bread",
+        "itemdb"      : "bread",
+        "desc"        : "Sell a bread",
+        "price"       : 0.25,
+        "lvl"         : 1,
+        "xpreq"       : 1,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Raspberry",
+        "itemdb"      : "raspberry",
+        "desc"        : "Sell a Raspberry",
+        "price"       : 0.20,
+        "lvl"         : 1,
+        "xpreq"       : 2,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Woodlog",
+        "itemdb"      : "woodlog",
+        "desc"        : "Sell a Woodlog",
+        "price"       : 0.25,
+        "lvl"         : 1,
+        "xpreq"       : 4,
+        "quantity"    : 1
+      }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+	"rows": 
+    [
+      {
+        "label"       : "Brush for Horse",
+        "itemdb"      : "brush",
+        "desc"        : "A perfect brush for your horses",
+        "price"       : 250.00,
+        "lvl"         : 1,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "X5 Potions",
+        "itemdb"      : "potionhorse",
+        "desc"        : "For revive your horse",
+        "price"       : 65.00,
+        "lvl"         : 1,
+        "xpreq"       : 0,
+        "quantity"    : 5
+      },
+      {
+        "label"       : "X10 Apples",
+        "itemdb"      : "apple",
+        "desc"        : "For eat your horse",
+        "price"       : 5.25,
+        "lvl"         : 1,
+        "xpreq"       : 0,
+        "quantity"    : 10
+      }
+    ]
+}
+
+

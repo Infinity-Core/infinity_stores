@@ -1,0 +1,32 @@
+{
+	"rows": 
+    [
+      {
+        "label"       : "Coffee",
+        "itemdb"      : "coffee",
+        "desc"        : "Hot and fresh made daily",
+        "price"       : 5.0,
+        "lvl"         : 1,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Beef Stew",
+        "itemdb"      : "ragout",
+        "desc"        : "Made with fresh beef and vegtables",
+        "price"       : 50.0,
+        "lvl"         : 5,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Peach Can",
+        "itemdb"      : "peach",
+        "desc"        : "You like a peach ? this is a peach with can, is not a classic peach !",
+        "price"       : 15.0,
+        "lvl"         : 3,
+        "xpreq"       : 0,
+        "quantity"    : 1
+      }
+    ]
+}

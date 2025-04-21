@@ -1,0 +1,41 @@
+{
+	"rows": 
+    [
+      {
+        "label"       : "Meat",
+        "itemdb"      : "meat",
+        "desc"        : "I buy your meats",
+        "price"       : 3.0,
+        "lvl"         : 1,
+        "xpreq"       : 3,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Poor Pelt",
+        "itemdb"      : "poorpelt",
+        "desc"        : "I buy your poor pelts",
+        "price"       : 2.0,
+        "lvl"         : 1,
+        "xpreq"       : 1,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Normal Pelt",
+        "itemdb"      : "normalpelt",
+        "desc"        : "I buy your normal pelts",
+        "price"       : 6.0,
+        "lvl"         : 1,
+        "xpreq"       : 3,
+        "quantity"    : 1
+      },
+      {
+        "label"       : "Perfect Pelt",
+        "itemdb"      : "perfectpelt",
+        "desc"        : "I buy your perfects pelts",
+        "price"       : 8.0,
+        "lvl"         : 1,
+        "xpreq"       : 5,
+        "quantity"    : 1
+      }
+    ]
+}
