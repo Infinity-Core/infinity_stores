@@ -17,7 +17,7 @@ if Config.BlipsMap then
             SetBlipScale(blipR, 0.2)
             Citizen.InvokeNative(0x9CB1A1623062F402, blipR, info.Name)
             table.insert(blips, blipR)
-        end  
+        end
     end)
 end
 
@@ -33,19 +33,19 @@ end)
 function addNPC(x, y, z, heading, model, pedBase)
     hashe = GetHashKey(model)
     RequestModel(hashe)
-    if not HasModelLoaded(hashe) then 
-        Wait(15) 
+    if not HasModelLoaded(hashe) then
+        Wait(15)
     end
-    while not HasModelLoaded(hashe) do 
-        Wait(1) 
+    while not HasModelLoaded(hashe) do
+        Wait(1)
     end
     ped = CreatePed(
-        hashe, 
-        x, 
-        y, 
-        z -1, 
-        heading, 
-        false, 
+        hashe,
+        x,
+        y,
+        z -1,
+        heading,
+        false,
         true
     )
     Citizen.InvokeNative(0x283978A15512B2FE, ped, false)
@@ -53,7 +53,7 @@ function addNPC(x, y, z, heading, model, pedBase)
     SetEntityInvincible(ped, true)
     SetEntityAsMissionEntity(ped, 1, 1)
     SetBlockingOfNonTemporaryEvents(ped, true)
-    table.insert(PedID,{ 
+    table.insert(PedID,{
         IDPED   = ped,
         pedBase = pedBase
     })
@@ -91,7 +91,7 @@ Citizen.CreateThread(function()
 
                 if not notificationSend then
                     PlaySoundFrontend("Player_Enter_Line", "RDRO_ATL_Sounds", true, 0)
-                    exports.infinity_core:notification(_InfinitySource, store.Name, '<small style="font-size:20px;">Press Enter Key <br> Taxs '..store.tax..'$</small>', 'center_left', 'infinitycore', 2500)      
+                    exports.infinity_core:notification(_InfinitySource, store.Name, '<small style="font-size:20px;">Press Enter Key <br> Taxs '..store.tax..'$</small>', 'center_left', 'infinitycore', 2500)
                     notificationSend = true
                 end
 
@@ -101,12 +101,12 @@ Citizen.CreateThread(function()
                     Timer       = 1800
 
                     TaskStartScenarioInPlace(
-                        PlayerPedId() --[[ Ped ]], 
-                        GetHashKey('WORLD_HUMAN_SMOKE') --[[ Hash ]], 
-                        -1 --[[ integer ]], 
-                        true --[[ boolean ]], 
-                        GetHashKey('') --[[ Hash ]], 
-                        -1.0 --[[ number ]], 
+                        PlayerPedId() --[[ Ped ]],
+                        GetHashKey('WORLD_HUMAN_SMOKE') --[[ Hash ]],
+                        -1 --[[ integer ]],
+                        true --[[ boolean ]],
+                        GetHashKey('') --[[ Hash ]],
+                        -1.0 --[[ number ]],
                         false --[[ boolean ]]
                     )
 
@@ -144,7 +144,7 @@ Citizen.CreateThread(function()
 end)
 
 
----- NUI ---- 
+---- NUI ----
 RegisterNetEvent('infinity_stores:openmenu')
 AddEventHandler('infinity_stores:openmenu', function(StoreName, DescName, StoreType, StoreTax)
     DisplayActions(not displaymenu, StoreName, DescName, StoreType, StoreTax)
@@ -154,8 +154,8 @@ function DisplayActions(bool, StoreName, DescName, StoreType, StoreTax)
     displaymenu    = bool
     SetNuiFocus(bool, bool)
     SendNUIMessage({
-        type   		         = "nui_content",
-        status 	 	         = displaymenu,
+        type                 = "nui_content",
+        status               = displaymenu,
         StoreName            = StoreName,
         DescName             = DescName,
         StoreType            = StoreType,
@@ -166,21 +166,33 @@ end
 RegisterNUICallback("buy", function(data)
     local PlayerLevel = exports.infinity_core:XpReturn()
     local PlayerDatas = exports.infinity_core:GetPlayerSession(_InfinitySource)
-    if tonumber(data.lvl) <= tonumber(PlayerLevel) then
+    local dataLvl = tonumber(data.lvl)
+    local playerLvlNum = tonumber(PlayerLevel)
+    if dataLvl == nil or playerLvlNum == nil then
+        exports.infinity_core:notification(_InfinitySource, "Internal error: level data missing", "", "center_right", "infinitycore", 1500)
+        return
+    end
+    if dataLvl <= playerLvlNum then
         PlaySoundFrontend("PURCHASE", "Ledger_Sounds", true, 0)
         TriggerServerEvent('infinity_stores:buy', _InfinitySource, data.itemdb, data.price, data.quantity, PlayerDatas)
-    else 
-        exports.infinity_core:notification(_InfinitySource, "You dont have level", "", "center_right", "infinitycore", 1500)
+    else
+        exports.infinity_core:notification(_InfinitySource, "You dont have the required level to buy this item", "", "center_right", "infinitycore", 1500)
     end
 end)
 
 RegisterNUICallback("sell", function(data)
     local PlayerLevel = exports.infinity_core:XpReturn()
-    if tonumber(data.lvl) <= tonumber(PlayerLevel) then
+    local dataLvl = tonumber(data.lvl)
+    local playerLvlNum = tonumber(PlayerLevel)
+    if dataLvl == nil or playerLvlNum == nil then
+        exports.infinity_core:notification(_InfinitySource, "Internal error: level data missing", "", "center_right", "infinitycore", 1500)
+        return
+    end
+    if dataLvl <= playerLvlNum then
         PlaySoundFrontend("PURCHASE", "Ledger_Sounds", true, 0)
         TriggerServerEvent('infinity_stores:sell', _InfinitySource, data.itemdb, data.price, data.quantity, data.xp)
-    else 
-        exports.infinity_core:notification(_InfinitySource, "You dont have level for sell this", "", "center_right", "infinitycore", 1500)
+    else
+        exports.infinity_core:notification(_InfinitySource, "You dont have the required level to sell this item", "", "center_right", "infinitycore", 1500)
     end
 end)
 
@@ -197,13 +209,13 @@ function play_ambient_speech_from_entity(entity_id,sound_ref_string,sound_name_s
     local speech_params = GetHashKey(speech_params_string)
     local sound_name_BigInt =  DataView.ArrayBuffer(16)
     sound_name_BigInt:SetInt64(0,sound_name)
-    local sound_ref_BigInt =  DataView.ArrayBuffer(16)
+    local sound_ref_BigInt = DataView.ArrayBuffer(16)
     sound_ref_BigInt:SetInt64(0,sound_ref)
     local speech_params_BigInt = DataView.ArrayBuffer(16)
     speech_params_BigInt:SetInt64(0,speech_params)
     struct:SetInt64(0,sound_name_BigInt:GetInt64(0))
     struct:SetInt64(8,sound_ref_BigInt:GetInt64(0))
-    struct:SetInt32(16,speech_line)   
+    struct:SetInt32(16,speech_line)
     struct:SetInt64(24,speech_params_BigInt:GetInt64(0))
     struct:SetInt32(32, 0)
     struct:SetInt32(40, 1)
@@ -217,7 +229,7 @@ end
 ----
 AddEventHandler("onResourceStop",function(resourceName)
     if GetCurrentResourceName() == resourceName then
-        print("^6 ["..GetCurrentResourceName().." are stop by dev, all blips/npc are removed for performances]")
+        print("^6 ["..GetCurrentResourceName().." are stopped by dev, all blips/npc are removed for performance]")
         for _, blipR in pairs(blips) do
             RemoveBlip(blipR)
         end
